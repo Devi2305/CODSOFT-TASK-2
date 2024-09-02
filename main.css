@@ -1,0 +1,147 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero 
+{
+min-height: 100vh;
+padding:40px;
+breadth:2px;
+
+background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("https://wemeancareer.com/wp-content/uploads/2020/04/Professional-LinkedIn-Headshot.png");
+background-repeat: no repeat;
+
+background-size: cover;
+}
+
+
+
+.hero-text h1 {
+    font-size: 50px;
+    margin: 0;
+    color:white;
+   text-align:;left;
+}
+
+.hero-text p {
+    font-size: 30px;
+color:white;
+    text-align:left;
+}
+
+#about, #skills,#projects, #contact{
+    padding: 40px 20px;
+    text-align: center;
+}
+#about
+{
+font-size:20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+text-align:center;
+    
+}
+#skills .skills-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8rem;
+        
+}
+
+.skills-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+    transition: transform 0.3s ease-in-out;
+    
+    
+}
+
+.skills-item:hover {
+    transform: scale(1.05);
+}
+
+.skills-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.skills-item h3, .skills-item p {
+    padding: 0.5rem;
+    
+    
+   
+}
+
+
+
+
+
+
+
+.projects-grid {
+    display: flex;
+    
+    justify-content: center;
+    
+    gap: 8rem;
+}
+
+
+.project-item {
+background:#f4f4f4;
+    background-color:#FF8A8A;
+     padding: 0.5rem;
+    border-radius: 5px;
+    text-align:center;
+    width: 250px;
+
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+</style>
